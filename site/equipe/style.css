@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.cabecalho img {
+  width: 600px;
+  height: 400px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.descricao {
+  width: 600px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.voltar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+
+  text-decoration: none;
+  color: #b3b8b9;
+  font-size: 18px;
+  cursor: pointer;
+
+  background-image: url("https://icons.veryicon.com/png/o/miscellaneous/integrated-icon-library-of-middle-and/left-arrow-back.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.voltar:hover {
+  transform: scale(1.1);
+}
